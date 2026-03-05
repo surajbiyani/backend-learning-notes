@@ -1,0 +1,58 @@
+what is FrontEnd :  FrontEnd is part of website that user can see or interact with it.
+                 -- Everything visible on screen is FrontEnd.
+
+example -- Buttons, forms, text , Images , navigation menus , Animations,footer.. etc.
+        -- FrontEnd run on browsers.
+
+FrontEnd Technologies --
+
+HTML - structuring the webpage.
+CSS - Styling the webpage.
+JAVASCRIPT - adding functionality to the webpage.
+REACT - Front Library.
+
+Note -- Client and FrontEnd not exactly same but they closely related.
+
+Client -- client is any device or application that sends a request to server to get data or services.
+ ex- Web-browsers , React application any, POSTMAN etc...
+
+ FrontEnd -- frontend is visual user interface of client application.
+ ex- Button , form, images , footer etc...
+
+ suppose you open any website: open laptop --> open web browser --> go to the website page/ UI
+  in above sentense ||laptop + web browser = Client|| ||website page = FrontEnd||.
+
+  ----------------------------------------------------------------------------------------------------------
+
+  what is backend :  backend is the main part of the application it works behind the scane. but 
+  it handle all the logic part of the application but user can't see it. give the result of user request.
+    -- logic and functionality of application
+   backend does --  # processing user request
+                    # storing the data in database
+                    # Authentication(Login/signup)
+                    # sending responses to frontend
+                    # Business Logic
+
+
+what is Server: A server it's like computer or program that provide  services/ data to client.
+-- Machine/software where backend runs.
+
+
+Backend Technologies --
+
+Node js -- web applications
+Java -- enterprise application
+python -- API's, AI apps
+Go --High performance server
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Computer can be used mainly in two ways:
+1. CLI - command line interface 
+2. GUI - graphical user interface
+
+CLI -- it means communicating with computer by typing the commands using keyboards only.
+ ex - Terminal , cmd, powershell, GitBash.
+
+GUI -- GUI means interacting with computer using visual elements.
+ ex - Button , icons , file , menu , mouseclicks.
