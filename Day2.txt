@@ -1,0 +1,28 @@
+what is Node.js??
+
+-- Node.js is tool that allows us to run javascript  outside the browser.
+-- Node.js let javascript run on server.
+** Node.js = javascript + server .
+
+why we need Node.js ? how its diff from js in browser?
+
+1. Access to file/folder System
+  ex - start chrome -- chrome start via Terminal.
+
+2. Networking Capabilities.
+  ex- create server , localhost run.
+
+3. Process management.
+
+4. Interacting with Operating System.
+
+
+History of Node.js --
+
+- Node.js was created in 2009 by Ryan Dahl.
+
+- He wanted to solve the problem of slow web servers that handled many connections at the same time.
+
+- Traditional servers created one thread per request, which consumed more memory.
+
+- Node.js introduced NPM for managing packages and is widely used for building APIs, real-time apps, and backend services.
