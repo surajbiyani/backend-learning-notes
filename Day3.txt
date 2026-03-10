@@ -1,0 +1,67 @@
+Terminal -- its place or we used to communicate with computer through an command/text.
+ -- Terminal provide CLI.
+ -- Terminal Interface where you type commands.
+ ex- vs code terminal
+
+Shell -- its program that understand your terminal commands and tells the operating system what to do.
+-- Shell is the Program that executes the commands.
+ex - BASH ,PowerShell
+
+#echo -- its command used in terminal to display the text or output on the screen. its like console.log command.
+
+-- In terminal we can create the variable. its very simple just right the name of the variable and the assign the value to it.
+ ex- name=suraj  -- its way to create the variable inside the terminal.
+  Access the variable using the $VariableName. ex - echo $name || o/p - suraj.
+
+  Note - In shell/terminal you can't create variable without assiging value to it.
+
+#pwd -- (present working directory) It shows current (dir) folder path where you are working in the terminal.
+
+#whoami -- Its shows the current username who is logged into the system.
+
+#cd -- it stands for change directory. if want to one step back from the current path use "cd .." and if we want to add one step use cd that folder_name or filename.
+ ex - user/programs/suraj/backend
+     - if I run the command "cd .." enter.  o/p : user/programs/suraj.
+     - if I run the command "cd frontend". o/p : user/programs/suraj/frontend.
+
+     / -- root directory(parent). ~ -- home directory.
+
+#ls --It is  used to list the files and folders in current directory.
+ ex - ls -a - list the hidden files also.
+
+#touch - it is used to create new empty files.
+ ex - touch note.txt
+
+#mkdir -- It is used to create new directory(folder).
+ ex - mkdir notes
+
+#cp -- It is used to copy files & directories from one location to another.
+ ex - cp file1.txt file2.txt -- copy content of file1 into file2.
+
+#mv -- It is used to move or rename files or directories.
+ ex - mv filename destination.
+
+#rm -- Its used to remove or delete the  files.
+ ex - rm filename.
+
+#rm -r -- It is used to remove directories.
+ ex - rm -r filename.
+ 
+#rmdir -- it is used to delete empty directory.
+
+#cat -- cat command is used to display, create ,or combine files || cat means concatenate.
+ ex - cat filename -- display the file content.
+    - cat > filename --create new file.
+    - cat file2 >file2 --copy content from one file to another.
+
+#nano -- it text editor used to create and edit files directly in the terminal.
+ -- easiest editors in linux simpler than vi or vim.
+  ex - nano filename.txt  ctrl+O = save , ctrl+X = exit, ctrl+U = paste, ctrl+W = serach text.
+
+#vim --vim command is powerfull text editor in linux/unix used to create and edit file inside  the terminal.
+advanced version of Vi improved.
+ ex - vim filename  three mode - normal(default) , insert(write/edit), command mode(Save/exit).
+
+#alias -- alias command used to create shortcut name for the long command.
+ -- we can say that its tempory name of that command.
+ ex - alias shortcut ="actual_command"
