@@ -1,0 +1,36 @@
+what is CPU??
+-- CPU stand for central processing unit. Its main brain of computer, it perform all the calculation and instructions.
+
+processor(CPU is second name) = It same as CPU only . two best brand of the processor 1.Intel 2.AMD.
+
+core -- mini processor inside the CPU we can say! Modern CPU has multiple core to do many task or more than one task ath the same time.
+ ex- single core = 1 task at time , Dual core = 2 task at time , Quad core = 4 tasks at time possible likewise..
+
+
+ What is Operating System??
+
+ -- OS is software that manages the whole computer.
+ -- It work like middleman bet the user and the computer hardware.
+ -- OS decide how much and when resource need to work.
+
+ Operating System does --
+ #Run the application -- vs code , chrome etc.
+ #Manage memory -- RAM usage
+ #MAnges files -- create/ delete files.
+ #Manages hardware devices -- Keyboard, mouse , printer, etc..
+ #Manges CPU -- which app get the CPU time.
+
+
+ What is Kernal??
+ -- Kernal is the core(heart) of Operating System.
+ -- Kernal directly communicate with hardware for Operating System.
+
+ kernal does --
+  # CPU management -- which program run first.
+  # Memory mangement -- Allocate RAM.
+  # process Management -- Running programs.
+
+
+  what is process? 
+  -- simply a program that is currently running on a computer.
+  -- It contains RAM, CPUtime, PID etc...
