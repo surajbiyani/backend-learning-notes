@@ -1,0 +1,27 @@
+WSL (Windows Subsystem for Linux) -- is a feature in Windows that lets you run a real Linux environment inside Windows — without installing a separate OS.
+
+Symbol	Meaning -- 
+
+d	Directory (folder) 📁
+-	Regular file 📄
+l	Link (shortcut) 🔗
+~   Home Directory
+
+explorer .  -- Open current folder in Windows File Explorer.
+
+code .  -- Open current folder in VS Code
+
+PATH SYSTEM --   In Unix/Linux, a PATH (path system) is an environment variable that tells the system:
+
+👉 “Where to look for executable programs (commands) when you type something in the terminal.”
+
+Types of Paths (important concept)-
+
+1. Absolute Path  -- Full path from root /
+
+ex -- /home/suraj/project/file.js
+
+2. Relative Path -- Path from current directory
+
+ex  --  ./file.js
+../folder/file.js
