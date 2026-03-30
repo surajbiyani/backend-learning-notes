@@ -1,0 +1,48 @@
+Managing file permission : file permission in unix/ubantu its control who can access the file and directory what action they can perform.
+
+Three types of user : 
+👤 User (Owner) – the person who owns the file
+👥 Group – users in the same group
+🌍 Others – everyone else
+
+Three type of permission:
+
+📖 Read (r) → View file content
+✏️ Write (w) → Modify file
+⚙️ Execute (x) → Run file (important for scripts/programs)
+
+Example : -rwxr-xr--
+Breakdown:
+
+- → File type
+rwx → Owner has full permission(current user)
+r-x → Group can read & execute
+r-- → Others can only read
+
+1. If you want to check the file permission the following command you can use.
+   ls -l
+
+2. If you want to change the file permission (chmod)
+    chmod +x file/dir name     -- Its apply on all the part of the file.
+
+Symbolic method :
+u → user
+g → group
+o → others
++ → add permission
+
+3. If you want to give permission to specific part like only group or only user , other so you can follow below syntax:
+
+EX -- chmod g+x file.txt   -- here we just give the group to the execute permission likewise you can do.
+
+4. we can also do throw numeric method
+
+   Read - 4
+   Write - 2
+   Execute - 1
+
+ example - chmod 755 file.sh
+
+    7 → rwx (4+2+1) → owner
+    5 → r-x → group
+    5 → r-x → others
