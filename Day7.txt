@@ -1,0 +1,61 @@
+What is Module in NodeJS??
+
+-- Every file is treated as Module in Nodejs
+
+*Each file has its own scope
+*Variables/functions are not global by default
+*You must export and import explicitly
+---------------------------------------------------------------------------------------------
+Types of module in Nodejs:
+
+1. CommonJS (Default in Node.js).
+
+Example -- 
+
+/*  Export  */
+// math.js
+function add(a, b) {
+  return a + b;
+}
+
+module.exports = add;
+
+/*  Import  */
+
+// app.js
+const add = require('./math');
+
+console.log(add(2, 3)); // 5
+-------------------------------------------------------------------------------
+2. ES Modules (Modern Javascript)
+
+Example:
+
+/*  Export  */
+// math.js
+export function add(a, b) {
+  return a + b;
+}
+
+/*  Import  */
+// app.js
+import { add } from './math.js';
+
+console.log(add(2, 3));
+
+-----------------------------------------------------------------------------
+
+Difference bet  CommonJS and ES Modules
+
+
+    SYNTAX
+1. CommonJS - require()
+1. ES Module - import/export
+
+    DEFAULT IN
+2. CommonJS - Node.js
+2. ES Module - Modern.js
+
+    LOADING
+3. CommonJS - Synchronous
+3. ES Module - Asynchronous
