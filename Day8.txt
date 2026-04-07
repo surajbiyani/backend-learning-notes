@@ -1,0 +1,111 @@
+Module Object  -- Module Object contains information about the current module and is mainely used to export functionality.
+
+1. module.exports ⭐ (MOST IMPORTANT)
+
+This is used to export data/functions from one file to another.
+
+// math.js
+module.exports = function add(a, b) {
+  return a + b;
+};
+// app.js
+const add = require('./math');
+console.log(add(2, 3)); // 5
+
+👉 This is how modules communicate.
+
+2. module.id
+Identifier of the module
+Usually "." for the main file
+
+3. module.filename
+Full path of the file
+console.log(module.filename);
+
+4. module.loaded
+true → module is fully loaded
+false → still loading
+
+5. module.children
+Array of modules required inside this module
+
+
+
+## Differnce bet CommonJS and ES6 Module.
+
+| Feature         | CommonJS       | ES6 Modules   |
+| --------------- | -------------- | ------------- |
+| Import/Export   | require/module | import/export |
+| Loading         | Sync           | Async         |
+| Default in Node | Yes            | No            |
+| __dirname       | Yes            | No            |
+| Browser Support | No             | Yes           |
+| Optimization    | No             | Yes           |
+|hosting          |CJS not Hoisted | mjs is Hoisted|
+
+
+Types of Modules in Node.js:
+
+core Modules , local modules , Third-party module.
+
+1️⃣ Core Modules (Built-in Modules)
+
+👉 These modules come pre-installed with Node.js
+👉 No need to install anything
+
+🔹 Examples:
+fs (File System)
+http
+path
+os
+✅ Example:
+import fs from 'fs';
+
+fs.writeFileSync('test.txt', 'Hello Suraj');
+
+👉 Used for:
+
+File handling
+Server creation
+OS operations
+
+2️⃣ Local Modules (Custom Modules)
+
+👉 Modules created by you inside your project
+
+🔹 Example:
+
+math.js
+
+export const add = (a, b) => a + b;
+
+app.js
+
+import { add } from './math.js';
+
+console.log(add(2, 3));
+
+👉 Used for:
+
+Code reuse
+Clean project structure.
+
+3️⃣ Third-Party Modules (External Modules)
+
+👉 Installed using npm
+
+🔹 Examples:
+express
+lodash
+axios
+✅ Install:
+npm install express
+✅ Use:
+import express from 'express';
+
+const app = express();
+
+👉 Used for:
+
+Faster development
+Pre-built functionalities.
