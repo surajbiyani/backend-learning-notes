@@ -1,0 +1,140 @@
+What is NPM?
+---NPM (Node Package Manager) is the default package manager for Node.js.
+    Install packages (libraries).
+    It helps developers:
+    Share code with others.
+    Manage project dependencies.
+    Publish their own packages.
+
+👉 Think of NPM as a Play Store/App Store for JavaScript packages.
+
+Why Do We Need NPM?
+
+    Without NPM:
+
+    Developers would write everything from scratch.
+    Sharing code would be difficult.
+    Managing dependencies would be time-consuming.
+
+    With NPM:
+
+    Install packages with one command.
+    Reuse code created by other developers.
+    Easily update libraries.
+
+
+    Real-Life Example
+
+        Imagine you're building a house:
+
+        Cement = React
+        Paint = Tailwind CSS
+        Electricity tools = Axios
+        Furniture = Lodash
+
+        Instead of creating everything yourself, you buy ready-made items.
+
+        NPM works like an online marketplace for these tools.
+
+What is a Package?
+
+    A package is a collection of reusable code.
+
+    Examples:
+
+    React
+    Express
+    Axios
+    Lodash
+
+    commands of NPM:
+        npm -v -- It is used to check the npm version.
+        npm init -- It initialize the code and create the (package.json) file.
+        npm install react --Install package.
+        npm install nodemon --save-dev  --Install development dependencies.
+        npm uninstall react -- Remove Package.
+        npm update -- update package.
+
+
+
+
+What is package.json?
+        package.json is the heart of every Node.js project.
+        It is a JSON file that contains information about your project.
+        It keeps track of:
+        Project details
+        Dependencies
+        Scripts
+        Version information
+        Author details
+
+        Think of it as the identity card of your project.
+
+Why Do We Need package.json?
+
+        Without package.json:
+
+        Developers won't know which packages your project needs.
+        Running the project on another computer becomes difficult.
+        Version management becomes complicated.
+
+        With package.json:
+
+        Install all dependencies using a single command.
+        Share projects easily.
+        Manage project scripts.
+        Track package versions.
+
+        Real-Life Example
+
+            Suppose you buy a mobile phone.
+
+            The box contains:
+
+            Brand name
+            Model number
+            Features
+            Accessories list
+            Warranty information
+
+            Similarly, package.json contains:
+
+            Project name
+            Version
+            Dependencies
+            Scripts
+            Author information
+
+                Example package.json
+            {
+            "name": "my-react-app",
+            "version": "1.0.0",
+            "description": "React learning project",
+            "main": "index.js",
+            "scripts": {
+                "start": "vite",
+                "build": "vite build"
+            },
+            "author": "Suraj",
+            "license": "ISC",
+            "dependencies": {
+                "react": "^19.0.0",
+                "axios": "^1.8.0"
+            },
+            "devDependencies": {
+                "vite": "^7.0.0"
+            }
+            }
+
+    How to Create package.json
+     npm init  or npm init-y
+
+
+
+     package.json vs package-lock.json
+
+        package.json	            package-lock.json
+        Lists dependency versions	Stores exact versions
+        Editable	                Auto-generated
+        Shared with team	        Shared with team
+        Flexible versions	        Locked versions
